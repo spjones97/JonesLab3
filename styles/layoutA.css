@@ -1,0 +1,38 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background1 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    background-color: turquoise;
+}
+
+.background2 {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    background-color: gray;
+}
+
+.background3 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    background-color: purple;
+}
+
+.background4 {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    background-color: aquamarine;
+}
