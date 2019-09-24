@@ -1,2 +1,16 @@
-# JonesLab3
-Lab 3 from HTML/CSS3 class.
+# Instructions
+
+* Read all the way through this assignment, including the necessary information under Requirements & Tips, below.
+* Create a root directory (top-level project folder) and name it as follows: yourlastnameLab3.
+* Within that root directory/project folder, create three html documents and three CSS documents, named as follows: layoutA.html and layoutA.css; layoutB.html and layoutB.css, and layoutC.html and layoutC.css. Link layoutA.html to layoutA.css, layoutB.html to layoutB.css, and layoutC.html to layoutC.css.
+* Download and unzip the folder entitled layoutsLab3, attached to this assignment. It contains four images: layoutA, layoutB, layoutC, and layoutCwhenScrolled. Using what you've learned about positioning and floats, create a layout that looks like the layoutA image in your layoutA.html and layoutA.css documents. Do the same for layoutB in layoutB.html and layoutB.css, then the same for layoutC and its scrolled view in layoutC.html and layoutC.css.
+* Make sure that all six documents--three .html docs and three .css docs linked to them--are saved within your root directory (yourlastnameLab3).
+* Compress/zip the root directory (yourlastnameLab3) and attach it here by the deadline.
+
+# Requirements & Tips
+
+* You must use each of the non-default CSS positioning values (fixed, absolute, relative; static is default, so you won't need to declare it in this assignment) at least once in this assignment (that is, at least once across the whole assignment--not once per layout). You must also use floats at least once.
+* Use fluid measurements for the primary divs/areas in your layouts whenever possible, so that the layout maintains the same proportions when you resize the browser. However, sometimes you do want to fix the size of an element with pixels to make a method work or to control its appearance. In this assignment, you will only need to use fixed measurements (pixels) in layoutC, in which you should use a combination of fixed and fluid measurements. 
+* You may use standard divs with classes (e.g., <div class="bluediv"></div>), HTML5 structural elements (e.g., <header></header>), or both to create the areas in your layouts.
+* You must make sure it's clear where your divs/elements begin and end with background colors or borders. Do not put any content inside the divs, except for the large area of dummy text in layoutC. (For an easy way to generate dummy text for situations like this one, try https://loremipsum.io/) Read on for tips on how to make empty divs take up space without using fixed measurements like pixels!
+* To make layout/structural divs/elements take up space without using any content or fixed measurements, consider vh units. Remember that no matter how tall the viewport is, it contains 100vh. So your height measurements for each div/element can be set to whatever fraction of that 100 you wish. (For example, three divs stacked vertically with heights of 20vh, 40vh, and 30vh will fill the full height of the viewport.) Note that in most cases, percentages will not work to set height; you must use vh. For widths, you can use percentages--or you can use vw (viewport width), which works the same way: 100vw is 100% of the viewport's width; 10vw is 10% of the width, and so on.
